@@ -11,7 +11,7 @@ import cv2
 import matplotlib.pyplot as plt
 from PIL import Image
 
-image = Image.open(r'imagefamily.jpg')
+image = Image.open(r'tree.jpg')
 
 haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 col1, col2  = st.columns([0.8,0.2])
